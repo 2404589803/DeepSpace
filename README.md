@@ -1,7 +1,7 @@
 # DeepSpace
 
 <div align="center">
-<img src=assets/1.jpg width="60%"/>
+<img src=assets/1.jpg width="200px" style="border-radius: 50%"/>
 </div>
 
 [简体中文](README_cn.md)

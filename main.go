@@ -1,6 +1,8 @@
 package main
 
 import (
+	"os"
+
 	"github.com/spf13/cobra"
 )
 
@@ -25,6 +27,13 @@ var (
 )
 
 func main() {
+	// 如果没有命令行参数，启动 GUI 模式
+	if len(os.Args) == 1 {
+		StartGUI()
+		return
+	}
+
+	// 否则使用命令行模式
 	if err := DeepSpace.Execute(); err != nil {
 		logFatal(err)
 	}
