@@ -1,9 +1,7 @@
 # DeepSpace
 
 <div align="center">
-<div style="width: 200px; height: 200px; overflow: hidden; border-radius: 50%; margin: 0 auto;">
-  <img src=assets/1.jpg width="200px"/>
-</div>
+<img src=assets/1_circle.png width="150"/>
 </div>
 
 [简体中文](README_cn.md)
